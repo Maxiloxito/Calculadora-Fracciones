@@ -34,15 +34,15 @@ class Fraction:
     def __str__(self):                              #Funcion para devolver la ecuacion en forma de String
         return str(self.num)+"/"+str(self.den)
 
-print("Fraccion 1")                                           #Pedir los valores para la primera fraccion 
-
+print("Fraccion 1")    
+    #Pedir los valores para la primera fraccion 
 num1 = int(input("Ingrese valor del numerador 1\n"))
 den1 = int(input("Ingrese valor del denominador 1\n"))
 if den1 == 0:
     raise Exception("**Ingrese en el denominador un valor distinto a 0**")      #En caso del usuario ingresar un valor 0 en el denominador devolver un error orientando al usuario
 
-print("Fraccion 2")                                              #Pedir los valores para la segunda fraccion 
-
+print("Fraccion 2")                                          
+    #Pedir los valores para la segunda fraccion 
 num2 = int(input("Ingrese valor del numerador 2\n"))
 den2 = int(input("Ingrese valor del denominador 2\n"))
 if den2 ==0 :
